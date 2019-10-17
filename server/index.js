@@ -30,7 +30,7 @@ app.listen(port, () => {
   console.log('Running on http://localhost:'+port);
 });
 
-  // Define an endpoint that must be called with an access token
+// Define an endpoint that must be called with an access token
 //Api
 app.use(bodyParser.json());
 app.use('/api', routes);
